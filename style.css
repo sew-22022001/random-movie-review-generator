@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+#review-box {
+    text-align: center;
+    padding: 100px;
+    border-radius: 100px;
+    background-color: #bd09b7; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-family: 'Amatic SC', italic;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#movie-container {
+    margin-top: 40px;
+}
+
+.movie-image {
+    width: 150px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-name {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.review {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#loadReview {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
